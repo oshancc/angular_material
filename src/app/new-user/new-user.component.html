@@ -1,0 +1,36 @@
+<div class="container" style="font-size: 18px;">
+  <mat-card>
+    <mat-card-title>
+
+      <mat-icon aria-label="Edit">edit</mat-icon>
+      Add User
+
+  <hr>
+</mat-card-title>
+
+    <form class="sub" [formGroup]="userForm" (ngSubmit)="submitForm()" novalidate>
+
+      <mat-form-field class="example-full-width">
+        <mat-label>Name</mat-label>
+        <input matInput type="text" required formControlName="name">
+      </mat-form-field>
+
+       <mat-form-field class="example-full-width">
+        <mat-label>Job</mat-label>
+        <input matInput  type="text" required formControlName="job">
+      </mat-form-field>
+
+      <div >
+        <button [disabled]="!userForm.valid" mat-raised-button type="submit" color="primary">Submit</button>
+      </div>
+
+    </form>
+  </mat-card>
+
+
+
+</div>
+
+
+
+
