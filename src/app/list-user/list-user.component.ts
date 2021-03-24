@@ -27,14 +27,8 @@ export class ListUserComponent implements OnInit {
   constructor(private ActivatedRoute: ActivatedRoute, private UserService: UserService, private router: Router) { }
 
   ngOnInit(): void {
-    // this.ActivatedRoute.paramMap.subscribe(pm => {
-    //   if(!pm.has('page')){
-    //     return;
-    //   }else{
-    //     const pg =pm.get('page');
+
         this.loadUsers();
-    //   }
-    // })
 
 
   }
@@ -55,22 +49,12 @@ export class ListUserComponent implements OnInit {
 
     this.dataSource = this.users1;
     console.log(this.users1);
-    // console.log(this.users[0].total);
-    // this.length = this.users[0].total;
-    // this.pageSize = this.users[0].per_page;
+
     });
 
   }
 
-  // EditClick(id, firstName, lastName, email){
-  // 	this.actionId = id;
-  //   this.firstName = firstName;
-  //   this.lastName = lastName;
-  //   this.email = email;
-  //   console.log(this.actionId);
-  //   console.log(this.email);
 
-  // }
 
   DeleteClick(id: any){
     this.actionId = id;
