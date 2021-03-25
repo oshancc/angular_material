@@ -7,8 +7,8 @@ table {
 .mat-column-email {
   word-wrap: break-word !important;
   white-space: unset !important;
-  flex: 0 0 20% !important;
-  width: 20% !important;
+  flex: 0 0 16% !important;
+  width: 16% !important;
   overflow-wrap: break-word;
   word-wrap: break-word;
 
@@ -24,8 +24,8 @@ table {
 .mat-column-last_name {
   word-wrap: break-word !important;
   white-space: unset !important;
-  flex: 0 0 20% !important;
-  width: 20% !important;
+  flex: 0 0 16% !important;
+  width: 16% !important;
   overflow-wrap: break-word;
   word-wrap: break-word;
 
@@ -40,8 +40,8 @@ table {
 .mat-column-first_name {
   word-wrap: break-word !important;
   white-space: unset !important;
-  flex: 0 0 20% !important;
-  width: 20% !important;
+  flex: 0 0 16% !important;
+  width: 16% !important;
   overflow-wrap: break-word;
   word-wrap: break-word;
 
@@ -56,8 +56,8 @@ table {
 .mat-column-id {
   word-wrap: break-word !important;
   white-space: unset !important;
-  flex: 0 0 20% !important;
-  width: 20% !important;
+  flex: 0 0 10% !important;
+  width: 10% !important;
   overflow-wrap: break-word;
   word-wrap: break-word;
 
@@ -72,8 +72,24 @@ table {
 .mat-column-actions{
   word-wrap: break-word !important;
   white-space: unset !important;
-  flex: 0 0 20% !important;
-  width: 20% !important;
+  flex: 0 0 16% !important;
+  width: 16% !important;
+  overflow-wrap: break-word;
+  word-wrap: break-word;
+
+  word-break: break-word;
+
+  -ms-hyphens: auto;
+  -moz-hyphens: auto;
+  -webkit-hyphens: auto;
+  hyphens: auto;
+}
+
+.mat-column-avatar{
+  word-wrap: break-word !important;
+  white-space: unset !important;
+  flex: 0 0 16% !important;
+  width: 16% !important;
   overflow-wrap: break-word;
   word-wrap: break-word;
 
