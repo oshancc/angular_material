@@ -13,7 +13,7 @@ export class ListUserComponent implements OnInit {
 
   users: any[] = [];
   users1: any[] = [];
-  displayedColumns: string[] = ['id', 'first_name', 'email', 'last_name', 'actions'];
+  displayedColumns: string[] = ['avatar', 'id', 'first_name', 'email', 'last_name', 'actions'];
   dataSource : any;
   length: any;
   pageSize: any;
